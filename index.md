@@ -31,10 +31,10 @@ title: WL Telecom | Soluções de Internet
             <div class="carousel-item active">
                 <div class="container">
                         <div class="row align-items-center">
-                            <div class="col-lg-6 d-none d-sm-block">
+                            <div class="col-md-6 d-none d-md-block">
                                 <img src="{{ "/assets/images/office-building.png" | relative_url }}" alt="Empresas" width="256p" height="256">
                             </div>
-                            <div class="col-12 col-lg-6">
+                            <div class="col-12 col-md-6">
                                 <h2 class="h3 mb-4">Soluções Empresariais</h2>
                                 <p>
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
@@ -52,10 +52,10 @@ title: WL Telecom | Soluções de Internet
             <div class="carousel-item">
                 <div class="container">
                         <div class="row align-items-center">
-                            <div class="col-lg-6 d-none d-sm-block">
+                            <div class="col-md-6 d-none d-md-block">
                                 <img src="{{ "/assets/images/apartments.png" | relative_url }}" alt="Condominios" width="256p" height="256">
                             </div>
-                            <div class="col-12 col-lg-6">
+                            <div class="col-12 col-md-6">
                                 <h2 class="h3 mb-4">Soluções Condominiais</h2>
                                 <p>
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
@@ -73,10 +73,10 @@ title: WL Telecom | Soluções de Internet
             <div class="carousel-item">
                 <div class="container">
                         <div class="row align-items-center">
-                            <div class="col-lg-6 d-none d-sm-block">
+                            <div class="col-md-6 d-none d-md-block">
                                 <img src="{{ "/assets/images/house.png" | relative_url }}" alt="Residencias" width="256p" height="256">
                             </div>
-                            <div class="col-12 col-lg-6">
+                            <div class="col-12 col-md-6">
                                 <h2 class="h3 mb-4">Soluções Residenciais</h2>
                                 <p>
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
@@ -94,10 +94,10 @@ title: WL Telecom | Soluções de Internet
             <div class="carousel-item">
                 <div class="container">
                         <div class="row align-items-center">
-                            <div class="col-lg-6 d-none d-sm-block">
+                            <div class="col-md-6 d-none d-md-block">
                                 <img src="{{ "/assets/images/worldwide.png" | relative_url }}" alt="Cabeamento" width="256p" height="256">
                             </div>
-                            <div class="col-12 col-lg-6">
+                            <div class="col-12 col-md-6">
                                 <h2 class="h3 mb-4">Soluções de Cabeamento</h2>
                                 <p>
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
@@ -152,7 +152,7 @@ title: WL Telecom | Soluções de Internet
                     <h2>Porque nos escolhem como provedor de internet e serviços.</h2>
                     <hr>
                 </div>
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-4 mb-3 mb-lg-0">
                     <div class="card text-center shadow p-3">
                         <div class="card-body">
                             <i class="fas fa-lock fa-4x mb-3 text-main-color-on-light"></i>
@@ -161,7 +161,7 @@ title: WL Telecom | Soluções de Internet
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-4 mb-3 mb-lg-0">
                     <div class="card text-center shadow p-3">
                         <div class="card-body">
                             <i class="fas fa-wifi fa-4x mb-3 text-main-color-on-light"></i>
@@ -170,7 +170,7 @@ title: WL Telecom | Soluções de Internet
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-4 mb-3 mb-lg-0">
                     <div class="card text-center shadow p-3">
                         <div class="card-body">
                             <i class="fas fa-headset fa-4x mb-3 text-main-color-on-light"></i>

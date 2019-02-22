@@ -13,7 +13,7 @@
 }
 
 .navbar-brand {
-    margin: 12px 2rem;
+    margin: 12px 0 12px 1rem;
 }
 
 .navbar {
@@ -45,6 +45,11 @@ nav .nav-link:hover {
 
 nav .row {
     width: 100%;
+}
+
+.navbar-collapse {
+    overflow: auto;
+    max-height: 65vh;
 }
 
 .jumbotron-content {
@@ -123,6 +128,11 @@ nav .dropdown-menu .dropdown-item:hover {
         padding-top: 20px;
         text-align: unset;
     } */
+
+    .navbar-collapse {
+        overflow: unset;
+        max-height: unset;
+    }
     .navbar-brand {
         margin: unset;
     }
