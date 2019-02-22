@@ -123,12 +123,6 @@ nav .dropdown-menu .dropdown-item:hover {
 
 /* Large devices (desktops, 992px and up) lg */
 @media (min-width: 992px) { 
-    /* .navbar {
-        padding-bottom: 20px;
-        padding-top: 20px;
-        text-align: unset;
-    } */
-
     .navbar-collapse {
         overflow: unset;
         max-height: unset;

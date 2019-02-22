@@ -126,3 +126,14 @@ section {
   background-color: #f6f6f6;
   height: 50px;
 }
+
+.footer-brand {
+  background-color: #000;
+  margin-bottom: 56px;
+}
+
+@media (min-width: 992px) { 
+  .footer-brand {
+    margin-bottom: 0;
+  }
+}
