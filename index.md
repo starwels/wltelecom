@@ -32,7 +32,7 @@ title: WL Telecom | Soluções de Internet
                 <div class="container">
                         <div class="row align-items-center">
                             <div class="col-lg-6 d-none d-sm-block">
-                                <img src="{{ site.baseurl }}/assets/images/office-building.png" alt="Empresas" width="256p" height="256">
+                                <img src="{{ "/assets/images/office-building.png" | relative_url }}" alt="Empresas" width="256p" height="256">
                             </div>
                             <div class="col-12 col-lg-6">
                                 <h2 class="h3 mb-4">Soluções Empresariais</h2>
@@ -53,7 +53,7 @@ title: WL Telecom | Soluções de Internet
                 <div class="container">
                         <div class="row align-items-center">
                             <div class="col-lg-6 d-none d-sm-block">
-                                <img src="{{ site.baseurl }}/assets/images/apartments.png" alt="Condominios" width="256p" height="256">
+                                <img src="{{ "/assets/images/apartments.png" | relative_url }}" alt="Condominios" width="256p" height="256">
                             </div>
                             <div class="col-12 col-lg-6">
                                 <h2 class="h3 mb-4">Soluções Condominiais</h2>
@@ -74,7 +74,7 @@ title: WL Telecom | Soluções de Internet
                 <div class="container">
                         <div class="row align-items-center">
                             <div class="col-lg-6 d-none d-sm-block">
-                                <img src="{{ site.baseurl }}/assets/images/house.png" alt="Residencias" width="256p" height="256">
+                                <img src="{{ "/assets/images/house.png" | relative_url }}" alt="Residencias" width="256p" height="256">
                             </div>
                             <div class="col-12 col-lg-6">
                                 <h2 class="h3 mb-4">Soluções Residenciais</h2>
@@ -95,7 +95,7 @@ title: WL Telecom | Soluções de Internet
                 <div class="container">
                         <div class="row align-items-center">
                             <div class="col-lg-6 d-none d-sm-block">
-                                <img src="{{ site.baseurl }}/assets/images/worldwide.png" alt="Cabeamento" width="256p" height="256">
+                                <img src="{{ "/assets/images/worldwide.png" | relative_url }}" alt="Cabeamento" width="256p" height="256">
                             </div>
                             <div class="col-12 col-lg-6">
                                 <h2 class="h3 mb-4">Soluções de Cabeamento</h2>
