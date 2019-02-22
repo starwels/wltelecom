@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <title>{{ page.title }}</title>
+        <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+        <link href="{{ "/assets/css/animation.css" | relative_url }}" rel="stylesheet">
+        <link href="{{ "/assets/css/bs-override.css" | relative_url }}" rel="stylesheet">
+        <link href="{{ "/assets/css/home.css" | relative_url }}" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top shadow">
+            <a class="navbar-brand" href="/">
+                <img src="/assets/images/brand.png" class="d-block d-lg-inline" alt="WL Telecom">   
+                <h1 class="navbar-text text-dark">Soluções de Internet </h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-main-color-on-light" href="#">Perguntas?</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-main-color-on-light" href="#">Sobre nós</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-main-color-on-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Serviços
+                        </a>
+                    <div class="dropdown-menu bg-light shadow" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/servicos/empresarial">Empresarial</a>
+                        <a class="dropdown-item" href="#">Condominial</a>
+                        <a class="dropdown-item" href="#">Residencial</a>
+                        <a class="dropdown-item" href="#">Cabeamento</a>
+                    </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-contact">
+                <a class="shadow btn btn-block main-color font-weight-bold" href="tel:(41) 3088-7778">Central Atendimento: <br> (41) 3088-7778</a>
+            </div>
+        </nav>
+        {{ content }}
+        <footer class="bg-gray text-white">
+            <div class="container pt-5">
+                <div class="row">
+                    <div class="col-12 col-lg-3 mb-5">
+                        <h5>Serviços</h5>
+                        <hr>
+                        <p>
+                            <a href="/servicos/empresarial">Empresarial</a>
+                        </p>
+                        <p>
+                            <a href="/servicos/condominial">Condominial</a>
+                        </p>
+                        <p>
+                            <a href="/servicos/residencial">Residencial</a>
+                        </p>
+                        <p>
+                            <a href="/servicos/cabeamento">Cabeamento</a>
+                        </p>
+                    </div>
+                    <div class="col-12 col-lg-3 mb-5">
+                        <h5>Contato</h5>
+                        <hr>
+                        <address>
+                            <p cl>
+                                <a href="mailto:contato@wl-telecom.com.br">contato@wl-telecom.com.br</a>
+                            </p>
+                            <p>
+                                <a href="https://www.facebook.com/www.wltelecom.com.br/" target="_blank"><i class="mr-2 fab fa-facebook-square fa-lg"></i>/wl-telecom</a>
+                            </p>
+                            <p>
+                                <a href="tel:(41) 3088-7778">(41) 3088-7778</a>
+                            </p>
+                            <p>Av. Winston Churchill, 1571 - 1 - Pinheirinho, Curitiba - PR, 81150-050</p>
+                        </address>
+                    </div>
+                    <div class="col-12 col-lg-3 mb-5">
+                        <h5>Outros</h5>
+                        <hr>
+                        <p>
+                            <a href="/sobre">Sobre nós</a>
+                        </p>
+                        <p>
+                            <a href="/perguntas">Perguntas Frequentes</a>
+                        </p>
+                    </div>
+                    <div class="col-12 col-lg-3 text-center mb-5">
+                        <div class="mb-4">
+                            <img class="mb-2" src="/assets/images/brand-vertical.png" width="200" alt="">
+                            <p class="m-auto" style="width: 200px">Levando comunição para todos os lugares</p>
+                        </div>
+                        <div>
+                            <i class="text-green fas fa-check fa-sm"></i><h5 class="ml-1 p d-inline-block">Empresa certificada pela Anatel</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center text-white py-3" style="background-color: black">
+                <p style="margin-bottom: 0">© Certa MEI 2019. Todos os Direitos Reservados. Feito por <a class="digify-color" href="https://www.digify.com.br" target="_blank">Digify</a>.</p>
+            </div>
+        </footer>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="/assets/js/scripts.js"></script>
+      </body>
+</html>

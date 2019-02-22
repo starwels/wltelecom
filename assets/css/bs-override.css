@@ -1,0 +1,149 @@
+.jumbotron {
+    background: url('../images/jumbotron.png') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 0;
+    padding: 0;
+    
+}
+
+.navbar-brand h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand {
+    margin: 12px 2rem;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar .btn {
+    border-radius: 0;
+    padding: .2rem 0;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+
+nav .navbar-text {
+    font-size: 0.8rem;
+}
+
+nav .nav-link {
+    padding: 29px 2rem!important;
+}
+
+nav .nav-link:hover {
+    background-color: #e6e6e6;
+}
+
+nav .row {
+    width: 100%;
+}
+
+.jumbotron-content {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.jumbotron-content .row {
+    height: 100vh;
+}
+
+.nav-contact {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 4%;
+    color: #000;
+    opacity: .5;
+    top: 48%;
+}
+
+.carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
+    color: #000;
+    opacity: .9;
+}
+
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 12px;
+    height: 12px;
+    margin-right: 8px;
+    margin-left: 8px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-radius: 50%;
+    opacity: .2;
+    transition: opacity .6s ease;
+}
+
+nav .dropdown-menu {
+    position: static;
+    float: none;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 9.5rem;
+}
+
+nav .dropdown-menu .dropdown-item {
+    padding: 1rem 1.5rem;
+}
+
+nav .dropdown-menu .dropdown-item:hover {
+    background-color: #e6e6e6;
+}
+
+/* Small devices (576px and up) sm */
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up) md */
+@media (min-width: 768px) {  }
+
+/* Large devices (desktops, 992px and up) lg */
+@media (min-width: 992px) { 
+    /* .navbar {
+        padding-bottom: 20px;
+        padding-top: 20px;
+        text-align: unset;
+    } */
+    .navbar-brand {
+        margin: unset;
+    }
+    .nav-contact {
+        position: unset;
+        width: 240px;
+    }
+    .navbar .btn {
+        border-radius: 0;
+        padding: 1rem 1rem;
+    }
+    .navbar {
+        padding: 0;
+        padding-left: 32px;
+    }
+
+    nav .navbar-text {
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) xl */
+@media (min-width: 1200px) {  }

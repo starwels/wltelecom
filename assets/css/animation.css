@@ -1,0 +1,136 @@
+.wrapper{
+    position: relative;
+    width: 300px;
+    font-family: 'Orbitron', 'Roboto', sans-serif;
+}
+
+.sentence{
+    color: #fff;
+    font-size: 2rem;
+}
+
+/*Vertical Sliding*/
+.slidingVertical{
+    display: inline;
+}
+.slidingVertical span{
+    animation: 
+        typing 9s steps(30) infinite 0s,
+        blink-caret .75s step-end infinite;
+    -ms-animation-delay:
+        typing 9s steps(30) infinite 0s,
+        blink-caret .75s step-end infinite;
+    -webkit-animation-delay: 
+        typing 9s steps(30) infinite 0s,
+        blink-caret .75s step-end infinite;
+    visibility: hidden;
+    color: #fff;
+	overflow: hidden;
+    position: absolute;
+    left: 0px;
+    bottom: -30px;
+    border-right: .06em solid rgb(139, 195, 74);
+    max-width: 294px;
+}
+.slidingVertical span:nth-child(2){
+	animation-delay: 3s;
+	-ms-animation-delay: 3s;
+	-webkit-animation-delay: 3s;
+}
+.slidingVertical span:nth-child(3){
+	animation-delay: 6s;
+	-ms-animation-delay: 6s;
+	-webkit-animation-delay: 6s;
+}
+
+@media (min-width: 768px) { 
+    .wrapper{
+        width: 530px;
+    }
+    .slidingVertical{
+        text-indent: 16px;
+    }
+}
+
+@media (min-width: 992px) { 
+    .wrapper{
+        width: 800px;
+    }
+    .sentence{
+        font-size: 3rem;
+    }
+    .slidingVertical span{
+        max-width: 460px;
+    }
+    .slidingVertical span{
+        left: unset;
+        bottom: unset;
+    }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(139, 195, 74); }
+}
+
+@-webkit-keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(139, 195, 74); }
+}
+
+@-ms-keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(139, 195, 74); }
+}
+
+
+@keyframes typing {
+    0% {
+        width: 0; 
+        visibility: hidden;
+    }
+    16.6% {
+        width: 100%; visibility: visible; color: #fff;
+    }
+    27% {
+        width: 100%; visibility: visible; color: #fff;
+    }
+    33.3% {
+        width: 0; visibility: hidden;
+    }
+    100% {
+        width: 0; visibility: hidden;
+    }
+}
+
+@-webkit-keyframes typing {
+    0% {
+        width: 0; 
+        visibility: hidden;
+    }
+    16.6% {
+        width: 100%; visibility: visible; color: #fff;
+    }
+    33.3% {
+        width: 0; visibility: hidden;
+    }
+    100% {
+        width: 0; visibility: hidden;
+    }
+}
+
+@-ms-keyframes typing {
+    0% {
+        width: 0; 
+        visibility: hidden;
+    }
+    16.6% {
+        width: 100%; visibility: visible; color: #fff;
+    }
+    33.3% {
+        width: 0; visibility: hidden;
+    }
+    100% {
+        width: 0; visibility: hidden;
+    }
+}
