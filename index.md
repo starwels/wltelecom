@@ -191,7 +191,7 @@ title: WL Telecom | Soluções de Internet
                 </div>
                 <div class="col-6 col-md-3 mb-5">
                     <a href="https://www.facebook.com/oalvobrasil/?rf=607783716251012" target="_blank" title="Alvo Church">
-                        <img class="img-fluid" src="/assets/images/alvo-church.png" alt="Alvo Church">
+                        <img class="img-fluid" src="{{ "/assets/images/alvo-church.png" | relative_url }}" alt="Alvo Church">
                     </a>
                 </div>
                 <div class="col-6 col-md-3 mb-5">
