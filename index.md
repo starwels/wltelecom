@@ -153,7 +153,7 @@ title: WL Telecom | Soluções de Internet
                     <hr>
                 </div>
                 <div class="col-12 col-lg-4 mb-3 mb-lg-0">
-                    <div class="card text-center shadow p-3">
+                    <div class="card text-center p-3">
                         <div class="card-body">
                             <i class="fas fa-lock fa-4x mb-3 text-main-color-on-light"></i>
                             <h5 class="card-title">Segurança</h5>
@@ -162,7 +162,7 @@ title: WL Telecom | Soluções de Internet
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 mb-3 mb-lg-0">
-                    <div class="card text-center shadow p-3">
+                    <div class="card text-center p-3">
                         <div class="card-body">
                             <i class="fas fa-wifi fa-4x mb-3 text-main-color-on-light"></i>
                             <h5 class="card-title">Online</h5>
@@ -171,7 +171,7 @@ title: WL Telecom | Soluções de Internet
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 mb-3 mb-lg-0">
-                    <div class="card text-center shadow p-3">
+                    <div class="card text-center p-3">
                         <div class="card-body">
                             <i class="fas fa-headset fa-4x mb-3 text-main-color-on-light"></i>
                             <h5 class="card-title">Suporte</h5>
@@ -183,10 +183,49 @@ title: WL Telecom | Soluções de Internet
         </div>
     </section>
     <section id="customers">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h2>Nossos clientes aqui</h2>
+        <div class="container card card-body bg-white">
+            <div class="row text-center">
+                <div class="col-12 mb-5">
+                    <h2>Nossos Clientes</h2>
+                    <hr>
+                </div>
+                <div class="col-6 col-md-3 mb-5">
+                    <a href="https://www.facebook.com/oalvobrasil/?rf=607783716251012" title="Alvo Church">
+                        <img class="img-fluid" src="/assets/images/alvo-church.png" alt="Alvo Church">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3 mb-5">
+                    <a href="https://madetelhas.com/matriz/" title="Made Telhas">
+                        <img class="img-fluid" src="/assets/images/made-telhas.png" alt="Made Telhas">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3 mb-5">
+                    <img class="img-fluid" src="/assets/images/maxnet.png" alt="Maxnet">
+                </div>
+                <div class="col-6 col-md-3 mb-5">
+                    <a href="http://www.elementovisual.com.br/versatil/contato.html" title="Versatil Eletromotores">
+                        <img class="img-fluid" src="/assets/images/versatil.png" alt="Versatil">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3 mb-5">
+                    <a href="https://www.brrefrigeracaothermoking.com.br/" title="BR Refrigeração">
+                        <img class="img-fluid" src="/assets/images/br-refrigeracao.png" alt="BR Refrigeração">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3 mb-5">
+                    <a href="https://infranetcuritiba.com.br/" title="INFRANET">
+                        <img class="img-fluid" src="/assets/images/infranet.png" alt="Infranet">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3 mb-5">
+                    <a href="http://www.vieiracaminhoes.com.br/" title="Vieira Caminhões">
+                        <img class="img-fluid" src="/assets/images/vieira-caminhoes.png" alt="Vieira Caminhões">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3 mb-5">
+                    <a href="http://www.vieiracaminhoes.com.br/" title="Elemento Visual">
+                        <img src="/assets/images/elementovisual.png" alt="Elemento Visual">
+                    </a>
                 </div>
             </div>
         </div>
