@@ -214,12 +214,12 @@ title: WL Telecom | Soluções de Internet
                 </div>
                 <div class="col-6 col-md-3 mb-5">
                     <a href="https://infranetcuritiba.com.br/" target="_blank" title="INFRANET">
-                        <img class="img-fluid" src="{{ "/assets/images/infranet.png" | relative_url }}  alt="Infranet">
+                        <img class="img-fluid" src="{{ "/assets/images/infranet.png" | relative_url }}"  alt="Infranet">
                     </a>
                 </div>
                 <div class="col-6 col-md-3 mb-5">
                     <a href="http://www.vieiracaminhoes.com.br/" target="_blank" title="Vieira Caminhões">
-                        <img class="img-fluid" src="{{ "/assets/images/vieira-caminhoes.png" | relative_url }} alt="Vieira Caminhões">
+                        <img class="img-fluid" src="{{ "/assets/images/vieira-caminhoes.png" | relative_url }}" alt="Vieira Caminhões">
                     </a>
                 </div>
                 <div class="col-6 col-md-3 mb-5">
