@@ -196,35 +196,35 @@ title: WL Telecom | Soluções de Internet
                 </div>
                 <div class="col-6 col-md-3 mb-5">
                     <a href="https://madetelhas.com/matriz/" target="_blank" title="Made Telhas">
-                        <img class="img-fluid" src="{{ site.baseurl }}/assets/images/made-telhas.png" alt="Made Telhas">
+                        <img class="img-fluid" src="{{ "/assets/images/made-telhas.png" | relative_url }}" alt="Made Telhas">
                     </a>
                 </div>
                 <div class="col-6 col-md-3 mb-5">
-                    <img class="img-fluid" src="/assets/images/maxnet.png" alt="Maxnet">
+                    <img class="img-fluid" src="{{ "/assets/images/maxnet.png" | relative_url }}" alt="Maxnet">
                 </div>
                 <div class="col-6 col-md-3 mb-5">
                     <a href="http://www.elementovisual.com.br/versatil/index.html" target="_blank" title="Versatil Eletromotores">
-                        <img class="img-fluid" src="/assets/images/versatil.png" alt="Versatil">
+                        <img class="img-fluid" src="{{ "/assets/images/versatil.png" | relative_url }}" alt="Versatil">
                     </a>
                 </div>
                 <div class="col-6 col-md-3 mb-5">
                     <a href="https://www.brrefrigeracaothermoking.com.br/" target="_blank" title="BR Refrigeração">
-                        <img class="img-fluid" src="/assets/images/br-refrigeracao.png" alt="BR Refrigeração">
+                        <img class="img-fluid" src="{{ "/assets/images/br-refrigeracao.png" | relative_url }}" alt="BR Refrigeração">
                     </a>
                 </div>
                 <div class="col-6 col-md-3 mb-5">
                     <a href="https://infranetcuritiba.com.br/" target="_blank" title="INFRANET">
-                        <img class="img-fluid" src="/assets/images/infranet.png" alt="Infranet">
+                        <img class="img-fluid" src="{{ "/assets/images/infranet.png" | relative_url }}  alt="Infranet">
                     </a>
                 </div>
                 <div class="col-6 col-md-3 mb-5">
                     <a href="http://www.vieiracaminhoes.com.br/" target="_blank" title="Vieira Caminhões">
-                        <img class="img-fluid" src="/assets/images/vieira-caminhoes.png" alt="Vieira Caminhões">
+                        <img class="img-fluid" src="{{ "/assets/images/vieira-caminhoes.png" | relative_url }} alt="Vieira Caminhões">
                     </a>
                 </div>
                 <div class="col-6 col-md-3 mb-5">
                     <a href="http://elementovisual.com.br/" target="_blank" title="Elemento Visual">
-                        <img src="/assets/images/elementovisual.png" target="_blank" alt="Elemento Visual">
+                        <img src="{{ "/assets/images/elementovisual.png" | relative_url }} " target="_blank" alt="Elemento Visual">
                     </a>
                 </div>
             </div>
